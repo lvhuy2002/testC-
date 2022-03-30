@@ -12,7 +12,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        string rootpath = @"C:\Users\FPTshop\OneDrive\Máy tính\NCKH1\CIA4CS";
+        string rootpath = @""; // add your file path-----------------------------------------------------------------------
         var files = Directory.GetFiles(rootpath, "*.*", SearchOption.AllDirectories);
         foreach (string file in files)
         {
