@@ -7,12 +7,13 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
  * http://www.swat4net.com/roslyn-you-part-iii-playing-with-syntax-trees/
  * https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/get-started/syntax-analysis
  * C# 8.0 in a Nutshell: The Definitive Reference Chapter 27
+ * https://www.youtube.com/watch?v=9mUuJIKq40M
  */
 class Program
 {
     static void Main(string[] args)
     {
-        string rootpath = @""; // add your file path-----------------------------------------------------------------------
+        string rootpath = @""; // -------------------------------ADD YOUR FILE PATH-----------------------------------------------------------------------
         var files = Directory.GetFiles(rootpath, "*.*", SearchOption.AllDirectories);
         foreach (string file in files)
         {
